@@ -1,0 +1,23 @@
+{
+  "name": "bankApp",
+  "description": "BankApplication Registration",
+  "main": "app.js",
+  "moduleType": [],
+  "authors": [
+    "Gowri Sankara Naidu"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6"
+  }
+}

@@ -1,0 +1,196 @@
+<br />
+<div class='panel panel-default col-md-6 col-md-offset-3'>
+  <div class="panel-header">
+    <h2> Application Form </h2>
+  </div>
+  <div class='panel-body'>
+    <form id='registrationForm' class='form-horizantal'>
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#tab1" data-toggle="tab">Step 1</a></li>
+        <li><a href="#tab2" data-toggle="tab">Step 2</a></li>
+        <li><a href="#tab3" data-toggle="tab">Finish</a></li>
+      </ul>
+      <hr />
+      <div class="tab-content">
+        <!-- form 1 -->
+        <div class="tab-pane active" id='tab1'>
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>First name</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' style="text-transform:uppercase" name='firstName' />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Last name</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' style="text-transform:uppercase" name='lastName' />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Age</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' name='age' />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>City</label>
+            <div class="col-md-8">
+              <select class="form-control" name='city'>
+                <option value="">- Select -</option>
+                <option>Hyderabad</option>
+                <option>Bangalore</option>
+                <option>Delhi</option>
+                <option>Kolkata</option>
+                <option>Chennai</option>
+                <option>Vizag</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Goa</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Profession</label>
+            <div class="col-md-8">
+              <select class="form-control" name='profession'>
+                <option value=""> - Select - </option>
+                <option>Farmer</option>
+                <option>Engineer</option>
+                <option>Teacher</option>
+                <option>Business</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Mobile Number</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' name='mobileNumber' />
+            </div>
+          </div>
+        </div>
+
+        <!-- form 2 -->
+        <div class="tab-pane" id='tab2'>
+          <div class='form-group row'>
+            <label class='control-label col-md-4'>PAN Card</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' style="text-transform:uppercase" name='panCard' />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-4'>Gross Annual Income</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' name='grossAnnualIncome' />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-4'>Company Name</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' name='companyName' style="text-transform:uppercase" />
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Designation</label>
+            <div class="col-md-8">
+              <select class="form-control" name='designation'>
+                <option value="">- Select -</option>
+                <option>Application Developer</option>
+                <option>Tech Lead</option>
+                <option>Product Owner</option>
+                <option>Farmer</option>
+                <option>Head Master</option>
+                <option>SDET</option>
+                <option>Manager</option>
+                <option>CEO</option>
+                <option>Sales Boy</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-4'>Address</label>
+            <div class="col-md-8">
+            <textarea class='form-control' rows="3" name='address' ></textarea>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-4'>PIN Code</label>
+            <div class="col-md-8">
+            <input type='text' class='form-control' name='pin' />
+          </div>
+          </div>
+
+
+        </div>
+
+        <!-- form 3 -->
+        <div class="tab-pane" id='tab3'>
+          <div class='form-group row'>
+            <label class='col-md-4 control-label'>Account Type</label>
+            <div class="col-md-8">
+              <select class="form-control" name='accountType'>
+                <option value="">- Select -</option>
+                <option>Current</option>
+                <option>Savings</option>
+                <option>Corporate</option>
+                <option>NRI</option>
+              </select>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-8'>Apply for Fixed Deposit </label>
+            <div class="col-md-4">
+              <label class="radio-inline">
+                  <input type="radio" name="fixedDeposit"  value="yes"> Yes
+              </label>
+              <label class="radio-inline">
+                  <input type="radio" name="fixedDeposit"  value="no"> No
+              </label>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-8'>Holding any credit cards from ABC bank</label>
+            <div class="col-md-4">
+              <label class="radio-inline">
+                  <input type="radio" name="holidingCreditCard"  value="yes"> Yes
+              </label>
+              <label class="radio-inline">
+                  <input type="radio" name="holidingCreditCard"  value="no"> No
+              </label>
+            </div>
+          </div>
+
+          <div class='form-group row'>
+            <label class='control-label col-md-8'>Agree T&C</label>
+            <div class="col-md-4">
+              <label class="radio-inline">
+                  <input type="radio" name="agreeTC"  value="yes"> Yes
+              </label>
+              <label class="radio-inline">
+                  <input type="radio" name="agreeTC"  value="no"> No
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Button -->
+        <ul class="pager wizard">
+           <li class="previous"><a href="javascript: void(0);">Previous</a></li>
+           <li class="next"><a href="javascript: void(0);">Next</a></li>
+       </ul>
+      </div>
+    </form>
+  </div>
+</div>
